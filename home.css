@@ -198,7 +198,7 @@ nav li:first-child {
 }
 @media (max-width: 800px) {
   nav {
-    width: 75%;
+    width: 100%;
   }
   body {
     width: 375px;
@@ -210,10 +210,10 @@ nav li:first-child {
     width: 50px;
   }
   .slide {
-    width: 70%;
+    width: 100%;
   }
   .shop-section1 {
-    width: 150px;
+    width: 200px;
     padding-right: 30px;
     /* height: 200px; */
   }
@@ -246,7 +246,7 @@ nav li:first-child {
   img.slide.displaySlide {
     display: block;
     height: 300px;
-    width: 75%;
+    width: 100%;
     background-color: none;
   }
   .slider button {
@@ -259,7 +259,8 @@ nav li:first-child {
   .title {
     font-size: 10px;
     margin-bottom: -100px;
-    font-size: 25px;
+    font-size: 40px;
+    width: 330px;
   }
   .logo {
     margin-left: 10px;
@@ -420,7 +421,7 @@ img.displaySlide {
   color: brown;
   background-color: peachpuff;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 35px;
   padding-right: 50px;
   /* padding-left: 10px; */
   /* margin-top: 50px; */
@@ -429,7 +430,7 @@ img.displaySlide {
   /* margin-bottom: 20px; */
   margin-left: 30px;
   height: 100px;
-  width: 200px;
+  width: 400px;
 }
 .hero {
   width: 75%;
@@ -476,9 +477,11 @@ ul a {
   margin-right: 10px;
 }
 .box1 {
+  width: 200px;
   margin-left: 30px;
 }
 .box2 {
+  width: 200px;
   margin-right: 20px;
 }
 /* .box :hover {
@@ -502,7 +505,7 @@ button {
   justify-content: center;
   align-items: center;
   color: white;
-  margin-left: 10px;
+  margin-left: 60px;
   /* margin-top: 10px; */
   padding-top: 10px;
   padding-bottom: 10px;
@@ -543,7 +546,7 @@ button a :hover {
 }
 .box-img {
   height: 100px;
-  width: 100px;
+  width: 180px;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
@@ -563,7 +566,7 @@ button a :hover {
   background-color: pink;
   text-align: center;
   color: brown;
-  width: 120px;
+  width: 200px;
   /* margin-right: 50px; */
   /* height: 350px; */
   border-top-left-radius: 10px;
@@ -573,7 +576,11 @@ button a :hover {
   border: 2px solid brown;
 }
 .box-content a {
-  margin-right: 30px;
+  /* margin-right: 30px; */
+  color: brown;
+}
+.box-content p {
+  color: brown;
 }
 /* .box-content :hover {
   width: 300px;
@@ -604,7 +611,7 @@ button a :hover {
   font-size: 15px;
 }
 .location {
-  width: 280px;
+  width: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -617,18 +624,19 @@ button a :hover {
 }
 .location a {
   color: white;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 60px;
+  /* margin-right: 40px; */
+  margin-left: 50px;
   margin-bottom: 15px;
 }
 .location i {
   padding-left: 3px;
-  font-size: 15px;
+  font-size: 20px;
   margin-right: -100px;
-  margin-left: -30px;
+  margin-left: 100px;
   color: goldenrod;
 }
 .goo {
@@ -637,6 +645,7 @@ button a :hover {
   border: 1px solid white;
   color: white;
   font-size: 1rem;
+  margin-left: 80px;
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -674,7 +683,7 @@ button a :hover {
   border: 1px solid white;
   color: white;
   font-size: 1rem;
-  margin-left: 130px;
+  margin-left: 200px;
   padding-left: 5px;
   margin-top: -54px;
   padding-top: 3px;
@@ -692,7 +701,7 @@ button a :hover {
 }
 .foot-panel1 {
   height: 300px;
-  width: 70%;
+  width: 100%;
   background-color: brown;
   /* display: flex; */
   justify-content: space-evenly;
@@ -714,19 +723,19 @@ button a :hover {
 }
 .foot-panel1 li {
   margin: -80px;
-  margin-left: 75px;
+  margin-left: 120px;
   margin-bottom: 50px;
 }
 .Legal {
   background-color: brown;
   color: white;
   height: 60px;
-  font-size: 10px;
+  font-size: 15px;
   border-color: brown;
   border-bottom: 2px solid #cccccc;
   /* border: none; */
   /* margin-bottom: 80px; */
-  width: 250px;
+  width: 350px;
 }
 select {
   background-color: peachpuff;
@@ -735,7 +744,7 @@ select {
   background-color: brown;
   color: #cccccc;
   height: 150px;
-  width: 72.5%;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
